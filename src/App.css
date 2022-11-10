@@ -1,38 +1,26 @@
 .App {
-  text-align: center;
+  background-color: #202020;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.info {
+  height: 2rem;
+  padding: 1rem 0 0 1rem;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.person, .company, .entity {
+  margin-right: 1rem;
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+}
+span {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.__________cytoscape_container {
+  padding: 3rem;
+  width: 100% !important;
+  height: 100vh !important;
 }
